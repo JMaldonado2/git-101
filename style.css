@@ -1,13 +1,72 @@
+/* Font and colours */
 body {
-	margin: 0;
-	font-family: helvetica;
-	background-color: red;
+	background: rgb(240, 240, 240);
+	color: rgb(20, 20, 20);
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	color: red;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size:  50px;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: none;
+	color: green;
+}
+ 
+/*custom design */
+
+#banner {
+	background-image: url(https://picsum.photos/seed/picsum/200/300);
+	background-size: cover;
+	padding: 150px 0px;
+	text-align: center;
+	color: beige;
 
 }
 
-#container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
+#banner h1 {
+	color: white;
+}
+
+#banner p {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.7;
+}
+
+.card {
+	text-align: center;
+	padding: 50px;
+}
+
+#footer {
+	color: white;
+	background-color: black;
+	padding: 20px;
+	font-size: 20px;
+}
+
+#footer a {
+	font-size: 20px;
+	color: grey;
+}
+
+#footer a:hover {
+	color: white;
 }
